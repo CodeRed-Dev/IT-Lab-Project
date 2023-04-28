@@ -3,6 +3,7 @@ from django.http import HttpResponse, JsonResponse
 from django.conf import settings
 import requests
 
+
 temp_img = "https://images.pexels.com/photos/3225524/pexels-photo-3225524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
 
 def home(request):

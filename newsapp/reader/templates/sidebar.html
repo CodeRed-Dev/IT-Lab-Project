@@ -1,40 +1,57 @@
-
-<style>
-    .sidebar{
-        position: fixed;
-        width: 200px;
-        height: 100%;
-        top: 0px;
-        left: 0px;
-    }
-    .sidebar a{
-        width: 250px;
-        display: block;
-        margin: 24px 0px;
-        padding: 10px 5px;
-        font-weight: bolder;
-        font-size: large;
-        text-decoration: none;
-        background-color: #d9e4ffc7;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        box-shadow: 0px 0.5px 1px rgb(77, 76, 76);
-        text-align: center;
-    }
-    .sidebar a:hover{
-        background-color: #7c7cde;
-        color: #333;
-    }
-</style>
-
-<div class="sidebar">
-    <a href="{% url 'Home' %}">Home</a>
-    <a href="{% url 'Home' %}?search=top">Top News</a>
-
-    <a href="{% url 'Home' %}?search=Business">Business</a>
-    <a href="{% url 'Home' %}?search=Technology">Technology</a>
-    <a href="{% url 'Home' %}?search=Entertainment">Entertainment</a>
-    <a href="{% url 'Home' %}?search=Sports">Sports</a>
-    <a href="{% url 'Home' %}?search=Science">Science</a>
-    <a href="{% url 'Home' %}?search=Health">Health</a>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IT Lab Project</title>
+	<style>
+		body {
+			background-color: #232323;
+			color: #f0f0f0;
+			margin: 0;
+			padding: 0;
+			padding-left: 4px;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		h1 {
+			margin-top: 0;
+			font-size: 36px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 20px;
+			margin-bottom: 16px;
+		}
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		li {
+			margin: 8px;
+			padding: 8px;
+			background-color: #FFA500;
+			color: #232323;
+			border-radius: 4px;
+			font-size: 20px;
+			text-align: center;
+			min-width: 200px;
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			font-style: oblique;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<h1>IT Lab Project</h1>
+	<p>Made by:</p>
+	<ul>
+		<li>Raghav Sharma (200905320) - 54</li>
+		<li>Pradyumn Kamath (200905398) - 60</li>
+	</ul>
+</body>
+</html>
